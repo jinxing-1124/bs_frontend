@@ -27,9 +27,9 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: http://localhost:4500/backend
+  baseUrl: http://localhost:5000/backend
   listen:
-    port: 4500
+    port: 5000
   database:
     client: better-sqlite3
     connection: ':memory:'
